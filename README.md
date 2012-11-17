@@ -5,7 +5,8 @@ Shiny-lana is the simplest lift project. The master branch shows only
 an index.html page with 'Hello World!'. The snippet used is tested.
 
 To see the live application, run sbt and type:
-    container:start
+
+       > container:start
 
 To import the project in eclipse, add this line to ~/.sbt/plugins/build.sbt
     addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.1.0")
